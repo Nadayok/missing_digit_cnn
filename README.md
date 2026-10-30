@@ -1,7 +1,9 @@
 # Missing Digit CNN
 
 นส. นฎา พจนาพิมล 68070272
-ลิงก์เดโม Colab : https://colab.research.google.com/drive/1m8ypRXumSoxZf3y46_aSXiZILbFWZlwl
+
+## ลิงก์เดโม Colab : 
+https://colab.research.google.com/drive/1m8ypRXumSoxZf3y46_aSXiZILbFWZlwl
 
 ## วัตถุประสงค์
 -ต้องการศึกษาว่า CNN สามารถอ่านเลขลายมือ 0–9 ได้ดีแค่ไหนและเมื่อภาพถูกบังบางส่วนโมเดลจะยังอ่านได้ถูกต้องหรือไม่
