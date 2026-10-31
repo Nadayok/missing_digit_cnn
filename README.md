@@ -3,7 +3,7 @@
 นส. นฎา พจนาพิมล 68070272
 
 ## Demo Colab
-[เปิด notebook ใน Google Colab](https://colab.research.google.com/drive/1m8ypRXumSoxZf3y46_aSXiZILbFWZlwl)
+https://colab.research.google.com/drive/1m8ypRXumSoxZf3y46_aSXiZILbFWZlwl
 
 ## วัตถุประสงค์
 สร้างและฝึก CNN เพื่อจำแนกเลขลายมือ 0–9 แล้วศึกษาว่าการบังกลางภาพส่งผลต่อความแม่นยำอย่างไร โดยเปรียบเทียบกับ Majority predictor และ Logistic Regression พร้อมวิเคราะห์ตัวอย่างที่โมเดลทำนายผิด
