@@ -22,14 +22,16 @@ https://colab.research.google.com/drive/1m8ypRXumSoxZf3y46_aSXiZILbFWZlwl
 รันจากโฟลเดอร์ที่มี README นี้ ใช้ Python และเวอร์ชันตาม results/environment.json
 ติดตั้ง dependencies ตาม requirements.txt 
 
-bash
+```bash
 python -m pip install -r requirements.txt
+```
 
 
 ### ประเมิน checkpoint ที่ฝึกไว้แล้ว
 
-bash
+```bash
 python evaluate.py --results results --output evaluation_recheck.csv
+```
 
 
 ใช้ split และ baseline ของรอบเดิม ไม่แก้ results/metrics.csv โหลดเฉพาะ joblib
