@@ -2,7 +2,7 @@
 
 นส. นฎา พจนาพิมล 68070272
 
-## ลิงก์เดโม Colab : 
+## ลิงก์ Demo Colab : 
 https://colab.research.google.com/drive/1m8ypRXumSoxZf3y46_aSXiZILbFWZlwl
 
 ## วัตถุประสงค์
@@ -38,17 +38,27 @@ python evaluate.py --results results --output evaluation_recheck.csv
 ที่เชื่อถือได้ของโครงงานนี้ เพราะรูปแบบ pickle สามารถรันโค้ดได้
 
 ### เทรนใหม่เพื่อทำซ้ำ
-
+รันคำสั่งนี้เพื่อเทรนโมเดล:
+```bash
 python train.py --config config.json --out results_reproduced
+```
+รอให้เทรนเสร็จ แล้วประเมินด้วยคำสั่งนี้:
+```bash
 python evaluate.py --results results_reproduced --output evaluation_reproduced.csv
-
-
-### เดโมโดยไม่เทรนใหม่
-
+```
+### Demo โดยไม่เทรนใหม่
+แสดงตัวอย่างที่โมเดลทำนายถูก:
+```bash
 python demo.py --example success --output success.png
+```
+แสดงตัวอย่างที่โมเดลทำนายผิด:
+```bash
 python demo.py --example failure --output failure.png
+```
+ทดลองบังกลางภาพขนาด 2×2 พิกเซล:
+```bash
 python demo.py --index 0 --mask-size 2 --output custom.png
-
+```
 
 ## Architecture และ hyperparameters
 
