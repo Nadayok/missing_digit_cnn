@@ -64,7 +64,7 @@ learning rate0.001; weight decay0.0001; dropout0.3; batch64;
 สูงสุด80epoch; early stopping patience10; seed42
 เลือก checkpoint จาก validation loss ต่ำสุด ไม่ใช้ test
 รอบที่แนบฝึก67epoch เลือกepoch57 ใช้CPU ตาม environment.json
-training metric วัดระหว่างอัปเดตและเปิด dropout ส่วน validation ปิด dropout จึงต่างเงื่อนไข
+training metric วัดระหว่างอัปเดตและเปิด dropout ส่วน validation ปิด dropout
 
 ## Evaluation และผลจริง
 Primary metric: clean test accuracy; secondary: Macro-F1
@@ -100,5 +100,5 @@ CNN clean accuracy=98.33% (354/360) เทียบกับ Logistic Regression
 CNN มีข้อผิดพลาดบนภาพปกติ6ภาพ ตัวแรกในลำดับคำทำนายที่บันทึกคือ dataset index677
 label9 แต่ทำนาย8 แม้ไม่บังภาพ ดูรูปใน results/failure_example.png
 ภาพความละเอียดต่ำอาจทำให้รูปทรงกำกวม แต่การดูภาพไม่พิสูจน์กลไกภายในของ CNN
-เดโมจะแสดง label/prediction จริง ไม่แก้ label ให้ดูถูก
+เดโมจะแสดง label/prediction จริง ไม่แก้ label
 
