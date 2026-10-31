@@ -11,8 +11,8 @@ https://colab.research.google.com/drive/1m8ypRXumSoxZf3y46_aSXiZILbFWZlwl
 ## ข้อมูลและวิธีแบ่ง
 ใช้ชุดข้อมูล Digits จาก scikit-learn จำนวน 1,797 ภาพ ขนาด 8×8 พิกเซล จำนวน 10 คลาส ปรับค่าพิกเซลให้อยู่ในช่วง 0–1 โดยหารด้วย 16
 
-- [ข้อมูลจาก scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html)
-- [ข้อมูลต้นทาง UCI](https://archive.ics.uci.edu/dataset/80/optical+recognition+of+handwritten+digits)
+- https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html
+- https://archive.ics.uci.edu/dataset/80/optical+recognition+of+handwritten+digits
 
 แบ่งแบบ stratified เพื่อรักษาสัดส่วนคลาส โดยใช้ seed 42:
 
